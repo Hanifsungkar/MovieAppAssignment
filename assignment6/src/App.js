@@ -5,7 +5,6 @@ import MovieList from './components/MovieList';
 import MovieHeading from './components/MovieHeading';
 import SearchBox from './components/SearchBox';
 
-
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [search, setSearch] = useState('')
